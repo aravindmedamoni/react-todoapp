@@ -1,0 +1,70 @@
+div{
+    margin: 40px auto;
+}
+.todoInput{
+    padding: 15px;
+    margin-left: 20px;
+    width: 40%;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+button{
+    padding: 10px;
+    margin: auto 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 40px;
+}
+.addTodo{
+    padding: 15px;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 50px;
+}
+.todoListDiv{
+    width: 80%;
+    margin: auto;
+    background-color: aquamarine;
+    border-radius: 10px;
+    
+}
+.todoItem{
+    margin: 8px auto 8px auto;
+    display: flex;
+    flex-direction: row;
+    padding: 6px 0;
+}
+.chBox{
+    width: 25px;
+    height: 25px;
+    padding: 12px;
+    margin: auto 20px;
+}
+p{
+    text-align: left;
+}
+.todoText {
+    flex: 1;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.strikeOff {
+    text-decoration: line-through;
+}
